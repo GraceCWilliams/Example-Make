@@ -14,7 +14,7 @@ Cow::Cow(int numSpots, int age)
     : numSpots_{numSpots},
       age_{age}
 {
-    cout << "Made a cow with " << numSpots_ << " spots!" << endl;
+    cout << "Made a cow with " << numSpots_ << "million spots!" << endl;
 }
 
 void Cow::moo(int numMoos) const {
